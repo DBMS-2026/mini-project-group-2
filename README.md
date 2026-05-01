@@ -245,11 +245,4 @@ npm run dev
   - AI provider keys on the AI services
   - Cloudinary keys on backend
 
----
-
-## Security / secrets (important)
-
-Do **not** commit real `.env` files or API keys. If any keys were ever exposed, **rotate them** in the provider dashboards.
-
-Recommended: add `.env` files to `.gitignore` and use `.env.example` templates only.
 
