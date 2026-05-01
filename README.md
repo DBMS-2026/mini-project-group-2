@@ -235,14 +235,4 @@ npm run dev
 - Room tags can be auto-assigned by AI.
 - When a bounty post is resolved, the accepted Q/A is ingested into a FAISS index for that room (“Room Mascot” can answer from solved threads).
 
----
-
-## Deployment notes (high level)
-- Backend and both FastAPI services support platform-provided `PORT` (Render-style).
-- In production, set:
-  - `FRONTEND_URL` correctly (CORS origin must match)
-  - `DATABASE_URL` (managed Postgres recommended)
-  - AI provider keys on the AI services
-  - Cloudinary keys on backend
-
 
